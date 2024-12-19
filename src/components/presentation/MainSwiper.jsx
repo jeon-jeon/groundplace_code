@@ -1,9 +1,11 @@
 import ImageSwiper from "../layout/ImageSwiper";
 import SwiperBottomText from "../layout/SwiperBottomText";
 
+import "../../style/customStyle.css";
+
 const MainSwiper = () => {
   return (
-    <section style={{ width: "100vw", height: "100vh" }}>
+    <section className="mainSwiper_section">
       <ImageSwiper />
       <SwiperBottomText />
     </section>

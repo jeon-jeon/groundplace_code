@@ -25,8 +25,8 @@ const Intro = () => {
         src="https://player.vimeo.com/video/970246499?h=a498af65f5?autoplay=1"
         width="1200px"
         height="800px"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       ></iframe>
     </section>
   );

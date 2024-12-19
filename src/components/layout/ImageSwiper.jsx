@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import "../../style/customStyles.css";
+import "../../style/customStyle.css";
 
 import { MdNavigateBefore } from "react-icons/md";
 import { MdNavigateNext } from "react-icons/md";
@@ -21,13 +21,11 @@ const ImageSwiper = () => {
     "/images/bgImg7.jpg",
   ];
   return (
-    <div style={{ width: "100%", height: "100%", position: "relative" }}>
+    <div className="swiper_container">
       <div className="swiper-button-prev custom-prev">
         <MdNavigateBefore size={70} />
       </div>
       <Swiper
-        style={{ width: "100%", height: "100%" }}
-        // navigation={true}
         navigation={{ nextEl: ".custom-next", prevEl: ".custom-prev" }}
         modules={[Navigation, Autoplay, Pagination]}
         autoplay={{ delay: 3000 }}
@@ -35,10 +33,11 @@ const ImageSwiper = () => {
         pagination={{
           type: "fraction",
         }}
-        className="mySwiper"
+        className="swiper_box"
       >
-        {bgImgs.map((v) => (
+        {bgImgs.map((v, i) => (
           <SwiperSlide
+            key={i}
             style={{
               backgroundImage: `url(${v})`,
               position: "relative",
