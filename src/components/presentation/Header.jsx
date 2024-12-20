@@ -52,7 +52,7 @@ const Header = () => {
           </li>
         </ul>
         <div className="right_box">
-          <img src="/images/hd_logo.png" alt="" />
+          <img src="./images/hd_logo.png" alt="" />
           <Button />
         </div>
       </nav>

@@ -15,10 +15,10 @@ const Special = () => {
       <article>
         <div className="container">
           <div className="left_img1_box">
-            <img src={`/images/special${id}_img1.jpg`} alt="" />
+            <img src={`./images/special${id}_img1.jpg`} alt="" />
           </div>
           <div className="left_img2_box">
-            <img src={`/images/special${id}_img2.jpg`} alt="" />
+            <img src={`./images/special${id}_img2.jpg`} alt="" />
           </div>
         </div>
         <ul className="list">
@@ -40,7 +40,7 @@ const Special = () => {
         </ul>
         <div className="container">
           <div className="right_img3_box">
-            <img src={`/images/special${id}_img3.jpg`} alt="" />
+            <img src={`./images/special${id}_img3.jpg`} alt="" />
           </div>
         </div>
       </article>

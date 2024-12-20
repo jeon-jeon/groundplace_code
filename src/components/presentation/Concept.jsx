@@ -38,21 +38,21 @@ const Concept = () => {
           <img
             ref={img1}
             className="main_img1"
-            src="/images/main_con1_img1.jpg"
+            src="./images/main_con1_img1.jpg"
             alt=""
           />
         </div>
-        <img className="leaf_img" src="/images/leaf.png" alt="" />
+        <img className="leaf_img" src="./images/leaf.png" alt="" />
         <img
           ref={img2}
           className="main_img2"
-          src="/images/main_con1_img2.jpg"
+          src="./images/main_con1_img2.jpg"
           alt=""
         />
         <img
           ref={img3}
           className="main_img3"
-          src="/images/main_con1_img3.jpg"
+          src="./images/main_con1_img3.jpg"
           alt=""
         />
         <p className="content_text">

@@ -17,7 +17,7 @@ const Footer = () => {
           fontFamily: "Pacifico",
         }}
       >
-        <img src="/images/ft_logo.png" alt="" />
+        <img src="./images/ft_logo.png" alt="" />
         <Text size={"120px"} text={"private poolvilla"}></Text>
       </div>
     </footer>

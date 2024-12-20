@@ -12,13 +12,13 @@ import { MdNavigateNext } from "react-icons/md";
 
 const ImageSwiper = () => {
   const bgImgs = [
-    "/images/bgImg1.jpg",
-    "/images/bgImg2.jpg",
-    "/images/bgImg3.jpg",
-    "/images/bgImg4.jpg",
-    "/images/bgImg5.jpg",
-    "/images/bgImg6.jpg",
-    "/images/bgImg7.jpg",
+    "./images/bgImg1.jpg",
+    "./images/bgImg2.jpg",
+    "./images/bgImg3.jpg",
+    "./images/bgImg4.jpg",
+    "./images/bgImg5.jpg",
+    "./images/bgImg6.jpg",
+    "./images/bgImg7.jpg",
   ];
   return (
     <div className="swiper_container">

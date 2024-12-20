@@ -34,7 +34,7 @@ const MainScroll = () => {
         style={{
           width: "100%",
           height: "100%",
-          backgroundImage: "url(/images/main_bg.jpg)",
+          backgroundImage: "url(./images/main_bg.jpg)",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
